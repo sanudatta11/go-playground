@@ -25,12 +25,12 @@ docker run \
   -p 127.0.0.1:8080:8080 \
   xiam/go-playground-sandbox
 
-# Running unsafebox
-# docker run \
-#  -d \
-#  --name go-playground-unsafebox \
-#  -p 127.0.0.1:8080:8080 \
-#  xiam/go-playground-unsafebox
+Running unsafebox
+  docker run \
+    -d \
+    --name go-playground-unsafebox \
+    -p 127.0.0.1:8080:8080 \
+    xiam/go-playground-unsafebox
 
 # Running web editor
 docker run \
